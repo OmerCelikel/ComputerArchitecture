@@ -1,7 +1,7 @@
 # ComputerArchitecture
 TermProject
 
-##Objective
+## Objective
 
 In this project, we broadly aimed at achieving three important objectives. First, we’d like to design and implement a bundle of low-level softwares: mainly an assembler for the given instruction set architecture (ISA) specification and supporting programs. 
 
@@ -9,7 +9,7 @@ Once we are done with this phase, we’d like to next undertake the implementati
 
 In the final phase, we would like to extend our design to include a Core Management Unit (CMU) circuit that controls the concurrent execution of program instructions in a dual-core machine.
 
-##Prerequisites
+## Prerequisites
 
 For this project, you are expected to be fluent at writing software using one of the high-level languages of your choice such as C, C++ or Java. Basic functionality with using these languages and library utilizations should suffice to implement the necessary programs to secure a good grade. You should also have a good understanding of digital circuits and design principles. You are expected to combine your background developed in EE203 with the material you learned/shall learn in this class to implement a computing
 machine that comes with the basic system-level software to use it. Additionally, you ought to know a little bit multi-core implementation basics and programming
