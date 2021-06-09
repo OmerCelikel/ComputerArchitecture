@@ -1,15 +1,15 @@
 # ComputerArchitecture
+
 TermProject
 
-## Objective
+## To Test Follow These Steps
 
-In this project, we broadly aimed at achieving three important objectives. First, we’d like to design and implement a bundle of low-level softwares: mainly an assembler for the given instruction set architecture (ISA) specification and supporting programs. 
+To start the project, we need to load the assembly codes into the ROM. For this, follow these steps:
 
-Once we are done with this phase, we’d like to next undertake the implementation of a simple core microarchitecture that will have a datapath and a control unit (hardwired control for now) which shall process 16-bit instructions based on the ISA specification, and create control signals for register transfer level(RTL) and ALU operations over a common 16-bit bus. 
+Open Main.java in the assembly-code file. Type "java Main core1.txt" after "javac Main.java" to run it into the terminal.
 
-In the final phase, we would like to extend our design to include a Core Management Unit (CMU) circuit that controls the concurrent execution of program instructions in a dual-core machine.
+Your singlecore file will be created on the desktop.
 
-## Prerequisites
+Open the circuit in the Logisim file. To enter singlecore information on the ROM, you can right click and upload the file you created after "Load Image" here.
 
-For this project, you are expected to be fluent at writing software using one of the high-level languages of your choice such as C, C++ or Java. Basic functionality with using these languages and library utilizations should suffice to implement the necessary programs to secure a good grade. You should also have a good understanding of digital circuits and design principles. You are expected to combine your background developed in EE203 with the material you learned/shall learn in this class to implement a computing
-machine that comes with the basic system-level software to use it. Additionally, you ought to know a little bit multi-core implementation basics and programming
+Follow the same steps for multicore steps. Run core2.txt instead of core1.txt.
