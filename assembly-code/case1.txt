@@ -1,0 +1,11 @@
+ldi 5
+str 0
+ldi 4
+str 1
+mul 0
+lsl 1
+sub 0
+add 1
+sub 0
+div 0
+str 2
